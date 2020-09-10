@@ -8,22 +8,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="1018.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="1320.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label layoutX="821.0" layoutY="514.0" prefHeight="31.0" prefWidth="177.0" text="love_kach prodaction" textFill="#781919">
          <font>
             <Font name="Gigi" size="20.0" />
          </font>
       </Label>
-      <TextArea fx:id="textFieldEncryption" layoutX="2.0" layoutY="155.0" prefHeight="343.0" prefWidth="486.0" />
-      <TextArea fx:id="textFieldDecryption" layoutX="530.0" layoutY="155.0" prefHeight="343.0" prefWidth="486.0" />
+      <TextArea fx:id="textFieldEncryption" layoutX="2.0" layoutY="155.0" prefHeight="343.0" prefWidth="486.0" wrapText="true" />
+      <TextArea fx:id="textFieldDecryption" layoutX="530.0" layoutY="155.0" prefHeight="343.0" prefWidth="486.0" wrapText="true" />
       <TextField fx:id="nameField" layoutX="587.0" layoutY="32.0" prefHeight="38.0" prefWidth="233.0" promptText="Название нового ключа" />
       <Button fx:id="buttonGenKey" layoutX="844.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Сгенерировать" />
-      <Button fx:id="buttonEncrypt" layoutX="363.0" layoutY="514.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Зашифровать" />
-      <Button fx:id="buttonDecrypt" layoutX="558.0" layoutY="514.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Расшифровать" />
+      <Button fx:id="buttonEncrypt" layoutX="47.0" layoutY="514.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Зашифровать" />
+      <Button fx:id="buttonDecrypt" layoutX="346.0" layoutY="514.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Расшифровать" />
       <ComboBox fx:id="comboBox" layoutX="47.0" layoutY="38.0" prefWidth="150.0" />
       <TextField fx:id="nameAddingKey" layoutX="587.0" layoutY="89.0" prefHeight="38.0" prefWidth="233.0" promptText="Добавить открытый ключ" />
       <Button fx:id="buttonAddKey" layoutX="844.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Добавить" />
       <Button fx:id="buttonDeleteKey" layoutX="235.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Удалить ключ" />
+      <TextField fx:id="sessionKey" layoutX="966.0" layoutY="89.0" prefHeight="38.0" prefWidth="233.0" promptText="Добавить открытый ключ" />
    </children>
 </AnchorPane>

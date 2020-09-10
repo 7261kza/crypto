@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Crypto" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +89,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
@@ -196,38 +201,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1374" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599317756258" />
+    <state x="1639" y="504" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599730879763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1639" y="504" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599730879763" />
     <state x="1699" y="405" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599317684370">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1699" y="405" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599317684370" />
-    <state x="1726" y="401" key="#com.intellij.ide.util.MemberChooser" timestamp="1599485316495">
+    <state x="1988" y="499" key="#com.intellij.ide.util.MemberChooser" timestamp="1599668303657">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1726" y="401" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599485316495" />
-    <state x="1627" y="442" key="FileChooserDialogImpl" timestamp="1599318078041">
+    <state x="1988" y="499" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599668303657" />
+    <state x="1649" y="484" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599753903280">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1627" y="442" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599318078041" />
-    <state width="1236" height="397" key="GridCell.Tab.0.bottom" timestamp="1599575045732">
+    <state x="1649" y="484" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599753903280" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599757217912">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599575045732" />
-    <state width="1236" height="397" key="GridCell.Tab.0.center" timestamp="1599575045732">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599757217912" />
+    <state x="1627" y="442" key="FileChooserDialogImpl" timestamp="1599757585559">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599575045732" />
-    <state width="1236" height="397" key="GridCell.Tab.0.left" timestamp="1599575045732">
+    <state x="1627" y="442" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599757585559" />
+    <state width="1236" height="397" key="GridCell.Tab.0.bottom" timestamp="1599771462081">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599575045732" />
-    <state width="1236" height="397" key="GridCell.Tab.0.right" timestamp="1599575045732">
+    <state width="1236" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599771462081" />
+    <state width="1236" height="397" key="GridCell.Tab.0.center" timestamp="1599771462081">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599575045732" />
-    <state x="1400" y="275" key="SettingsEditor" timestamp="1599317859554">
+    <state width="1236" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599771462081" />
+    <state width="1236" height="397" key="GridCell.Tab.0.left" timestamp="1599771462081">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1400" y="275" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599317859554" />
+    <state width="1236" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599771462081" />
+    <state width="1236" height="397" key="GridCell.Tab.0.right" timestamp="1599771462081">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1236" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599771462081" />
+    <state x="1400" y="275" key="SettingsEditor" timestamp="1599757590891">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1400" y="275" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599757590891" />
     <state x="1615" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1599378790900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

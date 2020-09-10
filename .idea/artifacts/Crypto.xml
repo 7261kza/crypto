@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Crypto">
+    <output-path>$PROJECT_DIR$/out/artifacts/Crypto</output-path>
+    <root id="root">
+      <element id="archive" name="Crypto.jar">
+        <element id="module-output" name="Crypto" />
+        <element id="library" level="project" name="lib" />
+      </element>
+    </root>
+  </artifact>
+</component>
