@@ -13,12 +13,10 @@ public class ReadObject {
             KeyPair keyPair = (KeyPair) ois.readObject();
 
             ois.close();
-//            System.out.println("ZBS too");
             return keyPair;
         } catch (IOException | ClassNotFoundException ex) {
             ex.printStackTrace();
         }
-//        System.out.println("ne ZBS too");
         return null;
     }
 }

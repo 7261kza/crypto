@@ -13,7 +13,7 @@ public class GenerationKey implements Serializable {
 
         try {
             KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
-            keyGen.initialize(10240);
+            keyGen.initialize(2048);
             KeyPair pair = keyGen.generateKeyPair();
             return pair;
         } catch (Exception ex) {
